@@ -6,6 +6,7 @@
 body,
 h1 {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul {
@@ -17,4 +18,12 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.article-container {
+  display: flex;
+}
+
+img {
+  width: 300px;
 }
