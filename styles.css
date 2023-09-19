@@ -9,8 +9,13 @@ h1 {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 :root {
   --main-color: #af6896;
+  --hover-color: #7b6a75;
   --secundary-color: #403c3e;
 }
 
@@ -22,14 +27,23 @@ body {
 
 ul {
   list-style: none;
-  padding-left: 0;
+  padding: 20px 0;
   margin: 0;
   display: flex;
-  text-align: center;
+  justify-content: center;
 }
+
+li {
+  padding: 0 40px;
+}
+li:hover {
+  color: var(--hover-color);
+}
+
 h1 {
   color: var(--main-color);
 }
+
 main {
   width: 100%;
   color: var(--secundary-color);
